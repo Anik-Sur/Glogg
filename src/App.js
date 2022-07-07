@@ -1,5 +1,11 @@
+import TopBar from "./topbar/TopBar";
+
 function App() {
-  return <div className="App">Glogg! one stop for all your blog!</div>;
+  return (
+    <div>
+      <TopBar />
+    </div>
+  );
 }
 
 export default App;
