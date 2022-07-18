@@ -1,5 +1,5 @@
 import "./header.css";
-import main from "./assets/main.jpg";
+import bane from "./assets/bane.webm";
 
 export default function Header() {
   return (
@@ -8,7 +8,7 @@ export default function Header() {
         <span className="headerTitleSm">Welcome to</span>
         <span className="headerTitleLg">Glogg!</span>
       </div>
-      <img src={main} alt="" className="headerImg" />
+      <video src={bane} alt="" className="headerImg" autoPlay muted loop />
     </div>
   );
 }
